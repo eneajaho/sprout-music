@@ -1,0 +1,27 @@
+@import 'src/assets/vars';
+
+.search-box {
+  position: relative;
+
+  .search-input {
+    position: absolute;
+    padding: 10px 20px 10px 45px;
+    width: 100%;
+    border: 1px solid #b2b2b270;
+    border-radius: 25px;
+    outline: none;
+
+    &:focus {
+      border: 2px solid $color-accent;
+    }
+  }
+
+  .search-icon {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #b2b2b2;
+  }
+}
+
+

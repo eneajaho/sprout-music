@@ -1,0 +1,35 @@
+.box-item {
+  margin: 1rem;
+  transition: .2s all;
+  cursor: pointer;
+  position: relative;
+
+  .cover {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    transition: .2s all;
+    box-shadow: 0 5px 20px #6c757d50;
+    opacity: 0.9;
+  }
+
+  .author {
+    font-weight: 600;
+    margin-top: 15px;
+  }
+
+  .title {
+    color: grey;
+  }
+
+  &:hover {
+    transform: translateY(-4px);
+
+    .cover {
+      box-shadow: 0 10px 20px #6c757d80;
+      transform: translateY(-6px);
+      opacity: 1;
+    }
+  }
+}
+

@@ -1,0 +1,19 @@
+<div class="album-header">
+  <div fxLayout="row">
+    <div fxFlex="30%">
+      <img class="cover" [src]="album.cover" alt="Cover">
+    </div>
+    <div class="texts" fxFlex="70%">
+      <div class="author">{{ album.author }}</div>
+      <div class="title">{{ album.title }}</div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <div>Songs list</div>
+
+  <app-songs-list>
+
+  </app-songs-list>
+</div>

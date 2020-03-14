@@ -1,0 +1,28 @@
+@import 'src/assets/vars';
+
+.top-bar-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  height: 45px;
+
+  .top-bar-menu-item {
+    display: block;
+    margin-left: 2rem;
+    transition: 0.15s all;
+    cursor: pointer;
+
+    &:hover {
+      color: $color-accent;
+      border-bottom: 3px solid $color-accent;
+      padding-bottom: 10px;
+    }
+  }
+
+  .active  {
+    border-bottom: 3px solid $color-accent;
+    padding-bottom: 10px;
+  }
+}

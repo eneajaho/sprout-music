@@ -1,0 +1,14 @@
+@import 'src/assets/vars';
+
+.navigation {
+  height: 100vh;
+  background: linear-gradient(0deg, #EBEEF3, #fff);
+  background-size: cover;
+  padding: 1rem 0 1rem 2.5rem;
+}
+
+.logo {
+  font-size: 1.6rem;
+  color: $color-accent;
+  margin-bottom: 2rem;
+}

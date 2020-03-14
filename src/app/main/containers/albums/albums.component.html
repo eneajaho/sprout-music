@@ -1,0 +1,15 @@
+<div class="filters" fxLayout="row">
+  <app-filters fxFlex="100%"></app-filters>
+</div>
+
+
+<div
+  fxLayout="row wrap"
+  fxLayoutAlign="space-between center">
+
+  <app-box-item
+    *ngFor="let album of albums"
+    [item]="album">
+  </app-box-item>
+
+</div>
